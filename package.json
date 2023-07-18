@@ -9,13 +9,16 @@
   "categories": [
     "Other"
   ],
+  "repository": "https://github.com/kalogs-c/format-google-cloud-yaml-envs-vscode",
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "format-google-cloud-yaml-envs.executeRegexSubstitution",
-      "title": "Format Google Cloud Yaml Envs"
-    }]
+    "commands": [
+      {
+        "command": "format-google-cloud-yaml-envs.executeRegexSubstitution",
+        "title": "Format Google Cloud Yaml Envs"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
